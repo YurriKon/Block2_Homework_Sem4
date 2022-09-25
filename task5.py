@@ -1,16 +1,6 @@
 # Даны два файла, в каждом из которых находится запись многочлена.
 # Задача - сформировать файл, содержащий сумму многочленов.
 
-# from numpy.polynomial import polynomial
-
-# my_file = open('Многочлен1.txt', 'w+')
-# my_file.write('14x^2 + 5x + 7 = 0')
-# my_file.close()
-
-# my_file2 = open('Многочлен2.txt', 'w+')
-# my_file2.write('8x^2 + 13x + 5 = 0')
-# my_file2.close()
-
 from sympy import poly, Symbol
 
 my_file = open('Многочлен1.txt', 'r')
